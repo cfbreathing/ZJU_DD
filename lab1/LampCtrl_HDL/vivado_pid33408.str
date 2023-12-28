@@ -1,0 +1,176 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 33408
+License: Customer
+
+Current time: 	Sun Nov 05 06:33:25 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 2560x1600
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 14 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	15390
+User home directory: C:/Users/15390
+User working directory: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2019.1
+RDI_DATADIR: D:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/15390/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/15390/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/15390/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/vivado.log
+Vivado journal file location: 	C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/vivado.jou
+Engine tmp dir: 	C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/.Xil/Vivado-33408-lwj
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2019.1
+XILINX_SDK: D:/Xilinx/SDK/2019.1
+XILINX_VIVADO: D:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 612 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1312 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\15390\Desktop\DD\Mylab\lab1\LampCtrl_HDL\LampCtrl_HDL.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/LampCtrl_HDL.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 649 MB. GUI used memory: 63 MB. Current time: 11/5/23, 6:33:27 AM CST
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/LampCtrl_HDL.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 112 MB (+115231kb) [00:00:25]
+// [Engine Memory]: 665 MB (+545712kb) [00:00:25]
+// [Engine Memory]: 713 MB (+15052kb) [00:00:28]
+// WARNING: HEventQueue.dispatchEvent() is taking  10392 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 65 MB. Current time: 11/5/23, 6:33:42 AM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 779.281 ; gain = 125.027 
+// Project name: LampCtrl_HDL; location: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL; part: xc7k160tffg676-2L
+// [GUI Memory]: 118 MB (+59kb) [00:00:36]
+dismissDialog("Open Project"); // by (cl)
+// [GUI Memory]: 125 MB (+811kb) [00:00:37]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LampCtrl_1 (main.v)]", 1); // B (F, cl)
+// PAPropertyPanels.initPanels (main.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LampCtrl_1 (main.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LampCtrl_1 (main.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 62 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, LampCtrl_1_sim (LampCtrl_1_sim.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, LampCtrl_1_sim (LampCtrl_1_sim.v)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// [Engine Memory]: 749 MB (+579kb) [00:01:56]
+// Elapsed time: 141 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cl)
+// Elapsed time: 251 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, RTF.xdc]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, RTF.xdc]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 75 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LampCtrl_1_sim.v", 2); // k (j, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LampCtrl_1 (main.v)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LampCtrl_1 (main.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LampCtrl_1 (main.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RTF.xdc", 3); // k (j, cl)
+selectCodeEditor("RTF.xdc", 272, 230); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 272, 230, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("RTF.xdc", 477, 202); // cl (w, cl)
+typeControlKey((HResource) null, "RTF.xdc", 'c'); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 500, 203); // cl (w, cl)
+typeControlKey((HResource) null, "RTF.xdc", 'v'); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RTF.xdc", 623, 319); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 624, 315); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 249, 233); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 249, 233, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main.v", 1); // k (j, cl)
+selectCodeEditor("main.v", 130, 256); // cl (w, cl)
+selectCodeEditor("main.v", 125, 254); // cl (w, cl)
+selectCodeEditor("main.v", 125, 254, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "main.v", 'c'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RTF.xdc", 3); // k (j, cl)
+selectCodeEditor("RTF.xdc", 413, 121); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 413, 121, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "RTF.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 438, 143); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 438, 143, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "RTF.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 415, 172); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 415, 172, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "RTF.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 445, 208); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 445, 208, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "RTF.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 406, 222); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 406, 222, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "RTF.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 439, 252); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 439, 251, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "RTF.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 414, 343); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 414, 343, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("RTF.xdc", 438, 359); // cl (w, cl)
+selectCodeEditor("RTF.xdc", 438, 359, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("RTF.xdc", 666, 236); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main.v", 1); // k (j, cl)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RTF.xdc", 3); // k (j, cl)

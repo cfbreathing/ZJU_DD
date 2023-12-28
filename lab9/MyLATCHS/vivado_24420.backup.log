@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 29 03:12:56 2023
+# Process ID: 24420
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4288 C:\Users\15390\Desktop\DD\Mylab\lab9\MyLATCHS\MyLATCHS.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 787.590 ; gain = 99.684
+update_compile_order -fileset sources_1
+set_property top Top [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 29 03:17:05 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/synth_1/runme.log
+[Wed Nov 29 03:17:05 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 29 03:26:20 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/synth_1/runme.log
+[Wed Nov 29 03:26:20 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 29 03:28:04 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/synth_1/runme.log
+[Wed Nov 29 03:28:04 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 29 03:28:50 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/synth_1/runme.log
+[Wed Nov 29 03:28:50 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 29 03:29:20 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/synth_1/runme.log
+[Wed Nov 29 03:29:20 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 29 03:29:55 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/synth_1/runme.log
+[Wed Nov 29 03:29:55 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 29 03:30:47 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/synth_1/runme.log
+[Wed Nov 29 03:30:47 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 04:06:21 2023...

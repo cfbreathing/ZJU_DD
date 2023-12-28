@@ -1,0 +1,17 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/CSR_LATCH_tb.v,1700644368,verilog,,,,CSR_LATCH_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/D_FLIPFLOP.v,1700631931,verilog,,,,D_FLIPFLOP_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/D_LATCH_tb.v,1700631615,verilog,,,,D_LATCH_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/MS_FLIPFLOP.v,1700644706,verilog,,,,MS_FLIPFLOP_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/SR_LATCH_tb.v,1700631333,verilog,,,,SR_LATCH_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/circuit/D_FLIPFLOP.v,1700630117,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v,,D_FLIPFLOP,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v,1700630117,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/D_FLIPFLOP.v,,NAND_GATE_3_INPUTS,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_LATCH/verilog/circuit/D_LATCH.v,1700630102,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/verilog/gates/NAND_GATE.v,,D_LATCH,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/MS_FLIPFLOP/verilog/circuit/MS_FLIPFLOP.v,1700630109,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/verilog/gates/NAND_GATE.v,,MS_FLIPFLOP,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/SR_LATCH/verilog/circuit/SR_LATCH.v,1700630040,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/SR_LATCH_tb.v,,SR_LATCH,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/circuit/CSR_LATCH.v,1700630093,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/MS_FLIPFLOP/verilog/circuit/MS_FLIPFLOP.v,,CSR_LATCH,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/verilog/gates/NAND_GATE.v,1700630093,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sim_1/new/MS_FLIPFLOP.v,,NAND_GATE,,,,,,,,

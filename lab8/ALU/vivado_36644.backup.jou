@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 15 17:02:32 2023
+# Process ID: 36644
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab8/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36740 C:\Users\15390\Desktop\DD\Mylab\lab8\ALU\ALU.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab8/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.xpr
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Users/15390/Desktop/DD/Mylab/lab8/attachment-seg/P2S.edf
+import_files -norecurse {C:/Users/15390/Desktop/DD/Mylab/lab8/attachment-seg/SSeg_Dev/HexTo8SEG.v C:/Users/15390/Desktop/DD/Mylab/lab8/attachment-seg/SSeg_Dev/SSeg_Dev.v C:/Users/15390/Desktop/DD/Mylab/lab8/attachment-seg/P2S_io.v C:/Users/15390/Desktop/DD/Mylab/lab8/attachment-seg/SSeg_Dev/Hex2Seg.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/impl_1/Top.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/impl_1/Top.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/impl_1/Top.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/impl_1/Top.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+launch_simulation
+source ALU_tb.tcl
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/impl_1/Top.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/impl_1/Top.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+close_sim

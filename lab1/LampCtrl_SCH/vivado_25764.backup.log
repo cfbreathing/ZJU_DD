@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  5 06:12:11 2023
+# Process ID: 25764
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19940 C:\Users\15390\Desktop\DD\Mylab\lab1\LampCtrl_SCH\LampCtrl_SCH.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 755.590 ; gain = 91.152
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Sun Nov  5 06:18:52 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k160tffg676-2L
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1135.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1337.180 ; gain = 530.371
+launch_runs impl_1 -jobs 8
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1724.922 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+[Sun Nov  5 06:20:50 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.runs/impl_1/runme.log
+add_files -fileset constrs_1 -norecurse C:/Users/15390/Desktop/DD/RTF.xdc
+import_files -fileset constrs_1 C:/Users/15390/Desktop/DD/RTF.xdc
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lamp_ctrl_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj lamp_ctrl_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.sim/sim_1/behav/xsim'
+"xelab -wto b570b65e5bbf483e94d8d7907b391fdf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lamp_ctrl_sim_behav xil_defaultlib.lamp_ctrl_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto b570b65e5bbf483e94d8d7907b391fdf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lamp_ctrl_sim_behav xil_defaultlib.lamp_ctrl_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lamp_ctrl_sim_behav -key {Behavioral:sim_1:Functional:lamp_ctrl_sim} -tclbatch {lamp_ctrl_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source lamp_ctrl_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1810.172 ; gain = 14.766
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lamp_ctrl_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1810.172 ; gain = 14.766
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1817.777 ; gain = 6.031
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  5 06:32:58 2023...

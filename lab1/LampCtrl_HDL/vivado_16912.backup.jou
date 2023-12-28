@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  5 06:07:54 2023
+# Process ID: 16912
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7956 C:\Users\15390\Desktop\DD\Mylab\lab1\LampCtrl_HDL\LampCtrl_HDL.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/LampCtrl_HDL.xpr
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/15390/Desktop/DD/RTF.xdc
+import_files -fileset constrs_1 C:/Users/15390/Desktop/DD/RTF.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/15390/Desktop/DD/RTF.rtf] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/15390/Desktop/DD/RTF.rtf

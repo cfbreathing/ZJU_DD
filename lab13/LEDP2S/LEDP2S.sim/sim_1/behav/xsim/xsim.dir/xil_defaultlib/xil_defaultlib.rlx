@@ -1,0 +1,13 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/AND2.v,1703063067,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/FD.v,,AND2,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/FD.v,1703064294,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/OR2.v,,FD,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/OR2.v,1703063081,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/new/P2S.v,,OR2,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/shift_reg.v,1703098281,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/wire1.v,,shift_reg,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/wire1.v,1703064619,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/new/P2S_tb.v,,wire1,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/new/P2S.v,1703748590,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/new/SR_Latch.v,,P2S,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/new/P2S_tb.v,1703634157,verilog,,,,P2S_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/new/SR_Latch.v,1703628344,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.srcs/sources_1/imports/new/shift_reg.v,,SR_Latch,,,,,,,,

@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 13 02:44:50 2023
+# Process ID: 14588
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab8/AddSub4b
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent420 C:\Users\15390\Desktop\DD\Mylab\lab8\AddSub4b\AddSub4b.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab8/AddSub4b/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab8/AddSub4b\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab8/AddSub4b/AddSub4b.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source AddSub4b_tb.tcl
+close_sim
+launch_simulation
+source AddSub4b_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source AddSub4b_tb.tcl
+close_sim
+launch_simulation
+source AddSub4b_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source AddSub4b_tb.tcl
+close_sim
+launch_simulation
+source AddSub4b_tb.tcl
+close_sim
+launch_simulation
+source AddSub4b_tb.tcl
+close_sim

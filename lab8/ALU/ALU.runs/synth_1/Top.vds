@@ -1,0 +1,508 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 15 17:56:30 2023
+# Process ID: 25908
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/synth_1/Top.vds
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top Top -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7464 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 764.031 ; gain = 177.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkdiv' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/clkdiv.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'clkdiv' (1#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/clkdiv.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pbdebounce' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/pbdebounce.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pbdebounce' (2#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/pbdebounce.v:22]
+INFO: [Synth 8-6157] synthesizing module 'CreateNumber' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/CreateNumber.v:23]
+INFO: [Synth 8-6157] synthesizing module 'AddSub4b' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub4b.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AddSub1b' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub1b.v:9]
+INFO: [Synth 8-6157] synthesizing module 'XOR_GATE_ONEHOT' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v:9]
+	Parameter BubblesMask bound to: 65'b00000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'XOR_GATE_ONEHOT' (3#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Adder1b' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/Adder1b.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_3_INPUTS' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/OR_GATE_3_INPUTS.v:9]
+	Parameter BubblesMask bound to: 65'b00000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_3_INPUTS' (4#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/OR_GATE_3_INPUTS.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/AND_GATE.v:9]
+	Parameter BubblesMask bound to: 65'b00000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE' (5#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/AND_GATE.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Adder1b' (6#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/Adder1b.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'AddSub1b' (7#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub1b.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'AddSub4b' (8#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub4b.v:9]
+WARNING: [Synth 8-7023] instance 'a1' of module 'AddSub4b' has 5 connections declared, but only 4 given [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/CreateNumber.v:31]
+WARNING: [Synth 8-7023] instance 'a2' of module 'AddSub4b' has 5 connections declared, but only 4 given [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/CreateNumber.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'CreateNumber' (9#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/CreateNumber.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux4to14b' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to14b/Mux4to14b.srcs/sources_1/new/Mux4to14b.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4to14b' (10#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to14b/Mux4to14b.srcs/sources_1/new/Mux4to14b.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mux4to1' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to1/Mux4to1.srcs/sources_1/new/Mux4to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4to1' (11#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to1/Mux4to1.srcs/sources_1/new/Mux4to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (12#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DisplayNumber' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/DisplayNumber.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DisplaySync' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DisplaySync' (13#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MyMC14495' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/new/MyMC14495.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'MyMC14495' (14#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/new/MyMC14495.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'DisplayNumber' (15#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/new/DisplayNumber.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/top.v:69]
+INFO: [Synth 8-6157] synthesizing module 'SSeg_Dev' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/SSeg_Dev.v:1]
+INFO: [Synth 8-6157] synthesizing module 'P2S' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/P2S_io.v:1]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'P2S' (16#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/P2S_io.v:1]
+WARNING: [Synth 8-6104] Input port 'SEG_PEN' has an internal driver [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/SSeg_Dev.v:21]
+WARNING: [Synth 8-6104] Input port 'seg_sout' has an internal driver [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/SSeg_Dev.v:22]
+WARNING: [Synth 8-6104] Input port 'seg_clk' has an internal driver [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/SSeg_Dev.v:23]
+WARNING: [Synth 8-6104] Input port 'seg_clrn' has an internal driver [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/SSeg_Dev.v:24]
+INFO: [Synth 8-6157] synthesizing module 'HexTo8SEG' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/HexTo8SEG.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Hex2Seg' [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/Hex2Seg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Hex2Seg' (17#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/Hex2Seg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'HexTo8SEG' (18#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/HexTo8SEG.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SSeg_Dev' (19#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/SSeg_Dev/SSeg_Dev.v:1]
+WARNING: [Synth 8-3848] Net seg_clk in module/entity Top does not have driver. [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/top.v:32]
+WARNING: [Synth 8-3848] Net seg_clrn in module/entity Top does not have driver. [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/top.v:33]
+WARNING: [Synth 8-3848] Net seg_sout in module/entity Top does not have driver. [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/top.v:34]
+WARNING: [Synth 8-3848] Net SEG_PEN in module/entity Top does not have driver. [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/top.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (20#1) [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3917] design Top has port BTNX4 driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 828.398 ; gain = 242.238
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 828.398 ; gain = 242.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 828.398 ; gain = 242.238
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/constrs_1/imports/new/lab7.xdc]
+Finished Parsing XDC File [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/constrs_1/imports/new/lab7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/constrs_1/imports/new/lab7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 949.957 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 949.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 949.957 ; gain = 363.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 949.957 ; gain = 363.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 949.957 ; gain = 363.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 949.957 ; gain = 363.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pbdebounce 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module CreateNumber 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
+Module Mux4to14b 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module Mux4to1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3936] Found unconnected internal register 'm0/pbshift_reg' and it is trimmed from '8' to '7' bits. [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/pbdebounce.v:31]
+WARNING: [Synth 8-3936] Found unconnected internal register 'm1/pbshift_reg' and it is trimmed from '8' to '7' bits. [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/pbdebounce.v:31]
+WARNING: [Synth 8-3917] design Top has port BTNX4 driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 949.957 ; gain = 363.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 949.957 ; gain = 363.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 953.402 ; gain = 367.242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 953.402 ; gain = 367.242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 965.730 ; gain = 379.570
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 965.730 ; gain = 379.570
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 965.730 ; gain = 379.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 965.730 ; gain = 379.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 965.730 ; gain = 379.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 965.730 ; gain = 379.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |P2S           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |P2S    |     1|
+|2     |BUFG   |     1|
+|3     |CARRY4 |     7|
+|4     |LUT1   |     7|
+|5     |LUT2   |     8|
+|6     |LUT3   |     4|
+|7     |LUT4   |    17|
+|8     |LUT5   |     7|
+|9     |LUT6   |    51|
+|10    |FDRE   |    50|
+|11    |IBUF   |    19|
+|12    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------------+------+
+|      |Instance |Module       |Cells |
++------+---------+-------------+------+
+|1     |top      |             |   192|
+|2     |  m0     |pbdebounce   |    12|
+|3     |  m1     |pbdebounce_0 |    12|
+|4     |  m4     |CreateNumber |    80|
+|5     |  m7     |SSeg_Dev     |     8|
+|6     |  m8     |clkdiv       |    43|
++------+---------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 965.730 ; gain = 379.570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 965.730 ; gain = 258.012
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 965.730 ; gain = 379.570
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/P2S.edf]
+Finished Parsing EDIF File [C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/attachment-seg/P2S.edf]
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[10]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[11]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[12]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[13]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[14]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[15]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[16]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[17]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[18]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[19]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[20]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[21]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[22]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[23]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[24]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[25]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[26]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[27]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[28]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[29]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[30]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[31]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[32]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[33]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[34]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[35]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[36]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[37]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[38]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[39]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[3]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[40]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[41]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[42]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[43]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[44]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[45]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[46]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[47]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[48]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[49]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[4]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[50]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[51]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[52]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[53]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[54]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[55]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[56]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[57]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[58]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[59]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[5]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[60]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[61]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[62]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[63]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[6]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[7]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[8]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/P_Data_IBUF[9]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/Serial_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/clk_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. m7/M2/rst_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-36] Removing redundant OBUF, SEG_PEN_OBUF_inst, from the path connected to top-level port: SEG_PEN 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-36] Removing redundant OBUF, seg_sout_OBUF_inst, from the path connected to top-level port: seg_sout 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-36] Removing redundant OBUF, seg_clrn_OBUF_inst, from the path connected to top-level port: seg_clrn 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-36] Removing redundant OBUF, seg_clk_OBUF_inst, from the path connected to top-level port: seg_clk 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 990.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 86 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 990.461 ; gain = 683.027
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 990.461 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 17:56:59 2023...

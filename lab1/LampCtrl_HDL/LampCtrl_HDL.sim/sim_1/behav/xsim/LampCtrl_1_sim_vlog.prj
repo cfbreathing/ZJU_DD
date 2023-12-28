@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../../../logisim_evolution_workspace/Untitled/main/verilog/gates/AND_GATE_3_INPUTS.v" \
+"../../../../../../../../../logisim_evolution_workspace/Untitled/main/verilog/gates/OR_GATE_4_INPUTS.v" \
+"../../../../../../../../../logisim_evolution_workspace/Untitled/main/verilog/circuit/main.v" \
+"../../../../LampCtrl_HDL.srcs/sim_1/new/LampCtrl_1_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

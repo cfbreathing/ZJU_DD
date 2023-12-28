@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 27 09:48:22 2023
+# Process ID: 93424
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent37440 C:\Users\15390\Desktop\DD\Mylab\lab13\LEDP2S\LEDP2S.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab13/LEDP2S/LEDP2S.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

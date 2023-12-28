@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/Mux4to1/Mux4to1.srcs/sources_1/new/Mux4to1.v,1699984527,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/Mux4to1/b/Mux4to14b.srcs/sources_1/new/Mux4to14b.v,,Mux4to1,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/Mux4to1/b/Mux4to14b.srcs/sources_1/new/Mux4to14b.v,1700042175,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/new/ALU.v,,Mux4to14b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/AddSub1b.v,1702407439,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/verilog/circuit/AddSub4b.v,,AddSub1b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/Adder1b.v,1702407311,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/Mux4to1/Mux4to1.srcs/sources_1/new/Mux4to1.v,,Adder1b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/new/ALU.v,1700042146,verilog,,,,ALU,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/verilog/circuit/AddSub4b.v,1700028634,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/Adder1b.v,,AddSub4b,,,,,,,,
+,,,,,,,,,,,,,,

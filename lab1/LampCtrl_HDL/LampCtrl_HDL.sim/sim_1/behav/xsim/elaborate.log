@@ -1,0 +1,21 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto a0f90b5d3eca45598a978e78dd1cba8c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot LampCtrl_1_sim_behav xil_defaultlib.LampCtrl_1_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/circuit/main.v" Line 9. Module LampCtrl_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/gates/AND_GATE_3_INPUTS.v" Line 9. Module AND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/gates/AND_GATE_3_INPUTS.v" Line 9. Module AND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/gates/AND_GATE_3_INPUTS.v" Line 9. Module AND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/gates/AND_GATE_3_INPUTS.v" Line 9. Module AND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/gates/OR_GATE_4_INPUTS.v" Line 9. Module OR_GATE_4_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AND_GATE_3_INPUTS(BubblesMask=65...
+Compiling module xil_defaultlib.OR_GATE_4_INPUTS(BubblesMask=65'...
+Compiling module xil_defaultlib.LampCtrl_1
+Compiling module xil_defaultlib.LampCtrl_1_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot LampCtrl_1_sim_behav

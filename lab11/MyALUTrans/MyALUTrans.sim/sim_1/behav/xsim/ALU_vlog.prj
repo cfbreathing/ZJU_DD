@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MyALUTrans.srcs/sources_1/imports/circuit/AddSub1b.v" \
+"../../../../MyALUTrans.srcs/sources_1/imports/verilog/circuit/AddSub4b.v" \
+"../../../../MyALUTrans.srcs/sources_1/imports/circuit/Adder1b.v" \
+"../../../../MyALUTrans.srcs/sources_1/imports/Mux4to1/Mux4to1.srcs/sources_1/new/Mux4to1.v" \
+"../../../../MyALUTrans.srcs/sources_1/imports/Mux4to1/b/Mux4to14b.srcs/sources_1/new/Mux4to14b.v" \
+"../../../../MyALUTrans.srcs/sources_1/imports/new/ALU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 20 16:20:41 2023
+# Process ID: 8508
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab12/MyClock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16508 C:\Users\15390\Desktop\DD\Mylab\lab12\MyClock\MyClock.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab12/MyClock/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab12/MyClock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab12/MyClock/MyClock.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 799.457 ; gain = 114.012
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Dec 20 16:27:11 2023] Launched synth_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab12/MyClock/MyClock.runs/synth_1/runme.log
+[Wed Dec 20 16:27:11 2023] Launched impl_1...
+Run output will be captured here: C:/Users/15390/Desktop/DD/Mylab/lab12/MyClock/MyClock.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 20 16:51:06 2023...

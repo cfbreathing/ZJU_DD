@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sim_1/new/Counter4b_tb.v,1701195428,verilog,,,,Counter4b_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/circuit/Counter4b.v,1701194308,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/circuit/FD.v,,Counter4b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/circuit/FD.v,1701194410,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/NOR_GATE.v,,FD,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/NOR_GATE.v,1701194307,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/NOR_GATE_3_INPUTS.v,,NOR_GATE,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/NOR_GATE_3_INPUTS.v,1701194307,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/NOR_GATE_4_INPUTS.v,,NOR_GATE_3_INPUTS,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/NOR_GATE_4_INPUTS.v,1701194308,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/XOR_GATE_ONEHOT.v,,NOR_GATE_4_INPUTS,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sources_1/imports/verilog/gates/XOR_GATE_ONEHOT.v,1701194308,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab10/MyCounter/MyCounter.srcs/sim_1/new/Counter4b_tb.v,,XOR_GATE_ONEHOT,,,,,,,,

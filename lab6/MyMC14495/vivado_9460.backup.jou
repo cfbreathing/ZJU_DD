@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov  8 15:45:39 2023
+# Process ID: 9460
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab6/MyMC14495
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17140 C:\Users\15390\Desktop\DD\Mylab\lab6\MyMC14495\MyMC14495.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab6/MyMC14495/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab6/MyMC14495\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab6/MyMC14495/MyMC14495.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/15390/Desktop/DD/Mylab/lab6/MyMC14495/MyMC14495.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/15390/Desktop/DD/Mylab/lab6/MyMC14495/MyMC14495.srcs/sim_1/new/MyMC14495_tb.v w ]
+add_files -fileset sim_1 C:/Users/15390/Desktop/DD/Mylab/lab6/MyMC14495/MyMC14495.srcs/sim_1/new/MyMC14495_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source MyMC14495_tb.tcl
+close_sim
+launch_simulation
+source MyMC14495_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source MyMC14495_tb.tcl
+close_sim
+launch_simulation
+source MyMC14495_tb.tcl
+close_sim
+launch_simulation
+source MyMC14495_tb.tcl

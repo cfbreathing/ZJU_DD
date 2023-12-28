@@ -1,0 +1,21 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto af183a7dc73b43b4b7bedea32073c4f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_FLIPFLOP_tb_behav xil_defaultlib.D_FLIPFLOP_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/circuit/D_FLIPFLOP.v" Line 9. Module D_FLIPFLOP doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab9/MyLATCHS/MyLATCHS.srcs/sources_1/imports/Untitled_2/D_FLIPFLOP/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NAND_GATE_3_INPUTS(BubblesMask=6...
+Compiling module xil_defaultlib.D_FLIPFLOP
+Compiling module xil_defaultlib.D_FLIPFLOP_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot D_FLIPFLOP_tb_behav

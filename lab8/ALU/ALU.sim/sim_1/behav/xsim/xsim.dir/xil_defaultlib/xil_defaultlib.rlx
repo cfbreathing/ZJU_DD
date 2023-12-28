@@ -1,0 +1,15 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sim_1/new/ALU_tb.v,1700030673,verilog,,,,ALU_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub1b.v,1700028634,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub4b.v,,AddSub1b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub4b.v,1700028634,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/Adder1b.v,,AddSub4b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/Adder1b.v,1700028634,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to1/Mux4to1.srcs/sources_1/new/Mux4to1.v,,Adder1b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/AND_GATE.v,1700028634,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/circuit/AddSub1b.v,,AND_GATE,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/OR_GATE_3_INPUTS.v,1700028634,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v,,OR_GATE_3_INPUTS,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/XOR_GATE_ONEHOT.v,1700028634,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sim_1/new/ALU_tb.v,,XOR_GATE_ONEHOT,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to1/Mux4to1.srcs/sources_1/new/Mux4to1.v,1699984527,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to14b/Mux4to14b.srcs/sources_1/new/Mux4to14b.v,,Mux4to1,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/sources_1/imports/lab7/Mux4to14b/Mux4to14b.srcs/sources_1/new/Mux4to14b.v,1700017261,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/OR_GATE_3_INPUTS.v,,Mux4to14b,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/new/ALU.v,1700042146,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab8/ALU/ALU.srcs/sources_1/imports/15390/logisim_evolution_workspace/Untitled_2/AddSub4b/verilog/gates/AND_GATE.v,,ALU,,,,,,,,

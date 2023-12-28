@@ -1,0 +1,13 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/AND2.v,1703635196,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/FD.v,,AND2,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/FD.v,1703635182,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/OR2.v,,FD,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/OR2.v,1703635205,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/P2S.v,,OR2,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/P2S.v,1703669323,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/SR_Latch.v,,P2S,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/P2S_tb.v,1703637046,verilog,,,,P2S_tb,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/SR_Latch.v,1703635128,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/shift_reg.v,,SR_Latch,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/shift_reg.v,1703635146,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/wire1.v,,shift_reg,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/wire1.v,1703635188,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab13/SEGP2S/SEGP2S.srcs/sources_1/new/P2S_tb.v,,wire1,,,,,,,,

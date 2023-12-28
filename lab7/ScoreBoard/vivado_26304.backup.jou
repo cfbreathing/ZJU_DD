@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 15 13:26:33 2023
+# Process ID: 26304
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab7/ScoreBoard
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3056 C:\Users\15390\Desktop\DD\Mylab\lab7\ScoreBoard\ScoreBoard.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab7/ScoreBoard/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab7/ScoreBoard\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab7/ScoreBoard/ScoreBoard.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

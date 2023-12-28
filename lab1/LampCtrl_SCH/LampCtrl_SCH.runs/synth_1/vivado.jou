@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  5 06:18:59 2023
+# Process ID: 9016
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.runs/synth_1
+# Command line: vivado.exe -log lamp_ctrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lamp_ctrl.tcl
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.runs/synth_1/lamp_ctrl.vds
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_SCH/LampCtrl_SCH.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lamp_ctrl.tcl -notrace

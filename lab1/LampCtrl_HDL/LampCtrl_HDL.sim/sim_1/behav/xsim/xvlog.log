@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/gates/AND_GATE_3_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_3_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/gates/OR_GATE_4_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_4_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/15390/logisim_evolution_workspace/Untitled/main/verilog/circuit/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LampCtrl_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/LampCtrl_HDL.srcs/sim_1/new/LampCtrl_1_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LampCtrl_1_sim

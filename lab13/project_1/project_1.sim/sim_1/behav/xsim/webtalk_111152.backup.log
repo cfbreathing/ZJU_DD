@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar  2 17:11:27 2023
+# Process ID: 111152
+# Current directory: C:/Users/15390/Desktop/CO/Lab/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED/Water_LED.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/15390/Desktop/CO/Lab/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED/Water_LED.sim/sim_1/behav/xsim/xsim.dir/Water_LED_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/15390/Desktop/CO/Lab/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED/Water_LED.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/15390/Desktop/CO/Lab/Lab0 Vivado介绍和模块封装/Lab0 Vivado介绍和模块封装（学生版）/OExp00/Water_LED/Water_LED.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/15390/Desktop/CO/Lab/Lab0 -notrace
+couldn't read file "C:/Users/15390/Desktop/CO/Lab/Lab0": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar  2 17:11:27 2023...

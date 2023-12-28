@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 27 15:49:15 2023
+# Process ID: 39848
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab13/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log Water_LED.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Water_LED.tcl
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab13/project_1/project_1.runs/synth_1/Water_LED.vds
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab13/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Water_LED.tcl -notrace

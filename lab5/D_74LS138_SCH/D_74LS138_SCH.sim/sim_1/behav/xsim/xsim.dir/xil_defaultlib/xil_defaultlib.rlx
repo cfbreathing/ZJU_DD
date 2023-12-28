@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/15390/Desktop/DD/Mylab/lab5/D_74LS138_SCH/D_74LS138_SCH.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/15390/Desktop/DD/Mylab/lab5/D_74LS138_SCH/D_74LS138_SCH.srcs/sim_1/new/D_74LS138_SCH_tb.v,1698234062,verilog,,,,D_74LS138_SCH_tb,,,,,,,,
+C:/Users/15390/logisim_evolution_workspace/Untitled/D_74LS138/verilog/circuit/D_74LS138.v,1698230440,verilog,,C:/Users/15390/logisim_evolution_workspace/Untitled/D_74LS138/verilog/gates/NAND_GATE_3_INPUTS.v,,D_74LS138,,,,,,,,
+C:/Users/15390/logisim_evolution_workspace/Untitled/D_74LS138/verilog/gates/AND_GATE.v,1698230440,verilog,,C:/Users/15390/logisim_evolution_workspace/Untitled/D_74LS138/verilog/circuit/D_74LS138.v,,AND_GATE,,,,,,,,
+C:/Users/15390/logisim_evolution_workspace/Untitled/D_74LS138/verilog/gates/NAND_GATE_3_INPUTS.v,1698230440,verilog,,C:/Users/15390/logisim_evolution_workspace/Untitled/D_74LS138/verilog/gates/NOR_GATE_3_INPUTS.v,,NAND_GATE_3_INPUTS,,,,,,,,
+C:/Users/15390/logisim_evolution_workspace/Untitled/D_74LS138/verilog/gates/NOR_GATE_3_INPUTS.v,1698230440,verilog,,C:/Users/15390/Desktop/DD/Mylab/lab5/D_74LS138_SCH/D_74LS138_SCH.srcs/sim_1/new/D_74LS138_SCH_tb.v,,NOR_GATE_3_INPUTS,,,,,,,,

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 29 04:17:03 2023
+# Process ID: 26848
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20976 C:\Users\15390\Desktop\DD\Mylab\lab6\DispNumber_sch\DispNumber_sch.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch/DispNumber_sch.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source DispNumber_sch_tb.tcl
+run 10 us
+close_sim

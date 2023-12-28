@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LEDP2S.srcs/sources_1/imports/new/AND2.v" \
+"../../../../LEDP2S.srcs/sources_1/imports/new/FD.v" \
+"../../../../LEDP2S.srcs/sources_1/imports/new/OR2.v" \
+"../../../../LEDP2S.srcs/sources_1/new/P2S.v" \
+"../../../../LEDP2S.srcs/sources_1/new/SR_Latch.v" \
+"../../../../LEDP2S.srcs/sources_1/imports/new/shift_reg.v" \
+"../../../../LEDP2S.srcs/sources_1/imports/new/wire1.v" \
+"../../../../LEDP2S.srcs/sources_1/new/P2S_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

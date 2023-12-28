@@ -1,0 +1,26 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 137fd644eb50410aa3813820d4abb11f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_behav xil_defaultlib.ALU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/verilog/circuit/AddSub4b.v" Line 9. Module AddSub4b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/AddSub1b.v" Line 9. Module AddSub1b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/Adder1b.v" Line 9. Module Adder1b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/AddSub1b.v" Line 9. Module AddSub1b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/Adder1b.v" Line 9. Module Adder1b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/AddSub1b.v" Line 9. Module AddSub1b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/Adder1b.v" Line 9. Module Adder1b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/AddSub1b.v" Line 9. Module AddSub1b doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/Desktop/DD/Mylab/lab11/MyALUTrans/MyALUTrans.srcs/sources_1/imports/circuit/Adder1b.v" Line 9. Module Adder1b doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Adder1b
+Compiling module xil_defaultlib.AddSub1b
+Compiling module xil_defaultlib.AddSub4b
+Compiling module xil_defaultlib.Mux4to14b
+Compiling module xil_defaultlib.Mux4to1
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_behav

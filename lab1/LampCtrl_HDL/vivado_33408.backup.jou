@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov  5 06:33:01 2023
+# Process ID: 33408
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9640 C:\Users\15390\Desktop\DD\Mylab\lab1\LampCtrl_HDL\LampCtrl_HDL.xpr
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/vivado.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/15390/Desktop/DD/Mylab/lab1/LampCtrl_HDL/LampCtrl_HDL.xpr
+update_compile_order -fileset sources_1

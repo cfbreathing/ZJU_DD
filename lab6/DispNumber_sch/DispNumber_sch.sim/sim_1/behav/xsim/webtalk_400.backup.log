@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov  8 20:30:08 2023
+# Process ID: 400
+# Current directory: C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch/DispNumber_sch.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch/DispNumber_sch.sim/sim_1/behav/xsim/xsim.dir/DispNumber_sch_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch/DispNumber_sch.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch/DispNumber_sch.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/15390/Desktop/DD/Mylab/lab6/DispNumber_sch/DispNumber_sch.sim/sim_1/behav/xsim/xsim.dir/DispNumber_sch_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 109.465 ; gain = 17.855
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  8 20:30:14 2023...

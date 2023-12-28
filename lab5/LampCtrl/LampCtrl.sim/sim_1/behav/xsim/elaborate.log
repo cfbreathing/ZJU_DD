@@ -1,0 +1,34 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d2695dcd59de43e1a86c6f90b08046cb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot LampCtrl_tb_behav xil_defaultlib.LampCtrl_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/circuit/LampCtrl.v" Line 9. Module LampCtrl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_4_INPUTS.v" Line 9. Module NAND_GATE_4_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/circuit/D_74LS138.v" Line 9. Module D_74LS138 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NOR_GATE_3_INPUTS.v" Line 9. Module NOR_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/15390/logisim_evolution_workspace/Untitled/D/LampCtrl/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NAND_GATE_4_INPUTS(BubblesMask=6...
+Compiling module xil_defaultlib.NOR_GATE_3_INPUTS(BubblesMask=65...
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=65'b0)
+Compiling module xil_defaultlib.NAND_GATE_3_INPUTS(BubblesMask=6...
+Compiling module xil_defaultlib.D_74LS138
+Compiling module xil_defaultlib.LampCtrl
+Compiling module xil_defaultlib.LampCtrl_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot LampCtrl_tb_behav
